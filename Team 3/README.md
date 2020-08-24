@@ -4,3 +4,4 @@ ndcg.py is a calculater to compute ndcg score on multiple queries dataset, an ap
 make sure all 3 files are in same directory
 
 Please refer to https://www.kaggle.com/c/expedia-personalized-sort/data for more information of expedia dataset
+
