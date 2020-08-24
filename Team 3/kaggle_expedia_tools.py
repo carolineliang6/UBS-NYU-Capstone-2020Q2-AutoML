@@ -1,3 +1,6 @@
+#source: https://github.com/BradAJ/Kaggle-Expedia-Sort
+#details are changed due to configuration and depreciation issues on Python3
+
 import pandas as pd
 from pandas.io import sql
 import mysql.connector
