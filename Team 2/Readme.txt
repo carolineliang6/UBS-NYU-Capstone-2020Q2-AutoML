@@ -1,1 +1,2 @@
-This is the folder of team 2 code, which includes 3 .py files that are modified from the orignal Facebook codes and 1 .ipynb file that can go through what we did.
+Here's the code for Team 2 - CTR Prediction, written by Lei Guo (lg3175@nyu.edu) and Xiangjun Kong (xk321@nyu.edu).
+Please start with team2_CTR_Prediction_Code.ipynb, which should run on Google Colab.
