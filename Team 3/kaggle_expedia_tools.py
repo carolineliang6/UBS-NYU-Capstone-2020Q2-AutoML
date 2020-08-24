@@ -157,8 +157,8 @@ def df_from_query(row_start = 7000014, row_end = 9917530, training = True, srch_
     
     """
     
-    #dbcon = mysql.connector.connect('localhost', 'root', '', 'new_schema')
-    dbcon = mysql.connector.connect(user='root', host='localhost', password='Rainyday961126!', database='new_schema')
+    #replace following fields with your own sql setting
+    dbcon = mysql.connector.connect(user='root', host='localhost', password='', database='new_schema')
 
     main_cols = "SELECT row_num, srch_id, s.prop_id, price_usd, prop_location_score1, prop_location_score2, prop_log_historical_price, prop_review_score, random_bool, srch_adults_count, srch_booking_window, srch_children_count, srch_length_of_stay, srch_query_affinity_score, srch_room_count, visitor_hist_adr_usd, (prop_starrating / price_usd) AS star_by_price, (prop_review_score / price_usd) AS rev_by_price"
 
