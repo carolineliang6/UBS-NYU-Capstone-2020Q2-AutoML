@@ -1,3 +1,6 @@
+-- source: https://github.com/BradAJ/Kaggle-Expedia-Sort
+-- details are changed due to configuration and depreciation issues on MYSQL 8.0
+
 DROP TABLE TrainSearch;
 DROP TABLE TestSearch;
 CREATE TABLE TrainSearch (
