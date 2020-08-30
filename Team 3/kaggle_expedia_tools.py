@@ -203,7 +203,9 @@ def df_from_query(row_start = 7000014, row_end = 9917530, training = True, srch_
     #train_df.sort(inplace=True)
     
     
-    train_df.fillna(value = 0, inplace = True)
+    #train_df.fillna(value = 0, inplace = True)
+    #improves performance
+    train_df.fillna(value = -999, inplace = True)
 
     return train_df
 
